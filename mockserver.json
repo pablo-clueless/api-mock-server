@@ -1,0 +1,12 @@
+{
+  "spec": "examples/petstore.yaml",
+  "port": 4010,
+  "seed": 42,
+  "cors": true,
+  "latencyMs": 0,
+  "routes": {
+    "GET /pets": { "latencyMs": 150 },
+    "POST /pets": { "errorRate": 0.0, "errorStatus": 422 },
+    "GET /pets/{petId}": { "latencyMs": 80 }
+  }
+}
