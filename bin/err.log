@@ -1,0 +1,4 @@
+api-mock-server · Petstore v1.0.0
+spec   examples/petstore.yaml (4 routes)
+listen http://localhost:4010
+admin  http://localhost:4010/__mock
